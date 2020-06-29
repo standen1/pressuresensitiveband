@@ -1,0 +1,119 @@
+/* App Layout */
+.App {
+  text-align: center;
+  font-family: 'Stoke', serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Stoke', serif;
+  max-height: 500px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* NavBar Layout */
+.MainNav {
+  font-family: 'Cabin', sans-serif;
+  color: #282c34;
+  background-color: white;
+  font-size: 23px;
+  display: inline-block;
+  text-align: center;
+}
+
+#content-wrap {
+  min-height: 300px;    /* Footer height */
+}
+
+/* Home Page Logo Icon */
+#psLogo {
+  font-size: 5em;
+}
+
+#pressureSensitive {
+  max-width: 300px;
+  max-height: auto;
+  opacity: 70%;
+}
+
+/* Individual Pages Layout */
+
+.pages {
+  display: inline-block;
+  text-align: center;
+  margin-top: 75px;
+  font-family: 'Cabin', sans-serif;
+  
+  color: #696969;
+  background-color: #f5f5f5; /*#DCDCDC; */
+  width: 20em;
+  padding: 75px 40px;
+  border-radius: 25px; 
+  box-shadow: 3px 3px 4px #696969;
+}
+
+/* Contact Page */
+
+#contactHeader {
+  font-size: 2.5em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.contact {
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #696969;
+  display: block;
+}
+
+.contact:hover {
+  text-decoration: none;
+  color: #C8C8C8;
+}
+
+/* Events Page */
+
+#eventTitle {
+  font-size: 2.5em;
+  padding-bottom: 1.5em;
+}
+
+.EventsPage p {
+  font-size: 1.2em;
+}
+
+/* Footer Layout */
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  bottom: 0;
+  position: relative;
+}
+
+.Footer ul {
+  list-style-type: none;
+}
+
+.outLink {
+  opacity: 40%;
+  margin: 0 20px;
+  height: 3em;
+  width: auto;
+}
+
+.outLink:hover {
+  opacity: 70%;
+  transform: scale(1.1);
+}
+

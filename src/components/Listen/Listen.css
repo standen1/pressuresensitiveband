@@ -1,0 +1,80 @@
+/* This is the styling for the Listen page.  I made it a separate file in order
+to focus on the amount of CSS I had to write and not overcrowd the App.css file.  */
+
+.listenPage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.image {
+  display: inline-block;
+  max-height: 300px;
+  width: 300px;
+  margin: 1.2em 1.2em 0 0;
+  border-radius: 25px; 
+  box-shadow: 3px 3px 4px #696969;
+}
+
+.overlay {
+  display: inline-block;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin: 1.2em 1.2em 0 -0.55em;
+  border-radius: 25px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #282c34;
+  border-radius: 25px;
+}
+
+.container:hover .overlay {
+  opacity: 80%;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title, .list {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+.title {
+  font-size: 1.2em;
+}
+
+.links {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  list-style-type: none;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: #C8C8C8;
+}
